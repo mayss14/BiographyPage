@@ -1,0 +1,57 @@
+#image
+{
+  padding-top:80px;
+  padding-right:120px;
+  padding-left:120px;
+  padding-bottom:40px;
+}
+#main
+{
+  background-color:#ddd;
+}
+#tribute-info
+{
+  background-color:#ddd;
+  margin:15px;
+}
+#tribute-info h4
+{
+  font-size:20px;
+  padding:60px;
+}
+#tribute-info ul
+{
+  margin-left:450px;
+  margin-right:400px;
+}
+#quote
+{
+  margin-left:450px;
+  margin-right:400px;
+  padding:30px;
+  font-style:italic;
+}
+#phrase
+{
+  font-size:20px;
+  font-weight:bold;
+  
+}
+
+@media screen and (max-width :500px)
+{
+  #tribute-info ul
+{
+  
+  margin-left:-400px; 
+}
+}
+
+@media screen and (min-width :900px)
+{
+  #image
+{
+  display:block;
+  margin: 0 auto;
+}
+}
